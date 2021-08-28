@@ -1,8 +1,10 @@
-# ENTERTAINMENT-APP
+# PORTFOLIO
 
-A Web Development project using a weatherapi that shows weather statistics upon input of a city using
+A Web Development e-portfolio created to showcase my experience and highlight past projects
 
-* REACT.js
+* HTML
+* CSS
+* JavaScript
 
 
 ## Project Demo
