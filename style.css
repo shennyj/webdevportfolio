@@ -968,16 +968,16 @@ footer{
 /*small phones*/
 @media(max-width:480px){
   .row{
-    max-width:300px;
+    max-width:350px;
   }
   .nav{
-    max-width:300px;
+    max-width:350px;
     width:100%;
     margin:0 auto;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
   }
-  .personallogo{
+  .personalLogo{
     font-size:15px;
   }
   .navLinkAnchor{
@@ -1009,7 +1009,44 @@ footer{
   
 }
 
-
+@media(max-width:350px){
+  .row{
+    max-width:300px;
+  }
+  .nav{
+    max-width:330px;
+  }
+  .personalLogo{
+    font-size:12px;
+  }
+  .navLinkAnchor{
+    font-size:10px;
+  }
+  .icon-mobile-nav{
+    margin-right:10px;
+  }
+  .mainNav{
+    margin-left:-50px
+  }
+}
+@media(max-width:275px){
+  .row{
+    max-width:250px;
+  }
+  .nav{
+    max-width:250px;
+  }
+  .personalLogo{
+    font-size:9px;
+  }
+  .navlinkAnchor{
+    font-size:7px;
+  }
+  .mainNav{
+    margin-left:-90px;
+  }
+ 
+}
 
 
   
